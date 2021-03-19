@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" >
+    <!-- rest css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="opener">Work Day Scheduler</h1>
+      <h2 class="lead">A simple calendar app for scheduling your work day</h2>
+      <h3 id="currentDay" class="leadClock">loading</h3>
+    </header>
+    <!-- Timeblocks go here -->
+    <div class="container">
+
+      <!-- 9am -->
+      <div id="hour900" class="row time-block">
+        <div class="col-md-1 hour">
+          9am
+        </div>
+        <textarea class = "col-md-10 description"></textarea>
+        <button class="btn saveBtn col=md-1">
+          <i class = "fas fa-save"></i>
+        </button>
+      </div>
+      
+      <!-- 10am -->
+      <div id="hour1000" class="row time-block">
+        <div class="col-md-1 hour">
+          10am
+        </div>
+        <textarea class = "col-md-10 description"></textarea>
+        <button class="btn saveBtn col=md-1">
+          <i class = "fas fa-save"></i>
+        </button>
+      </div>
+
+      <!-- 11am -->
+      <div id="hour1100" class="row time-block">
+        <div class="col-md-1 hour">
+          11am
+        </div>
+        <textarea class = "col-md-10 description"></textarea>
+        <button class="btn saveBtn col=md-1">
+          <i class = "fas fa-save">
+          </i>
+        </button>
+      </div>
+
+      <!-- noon -->
+      <div id="hour1200" class="row time-block">
+        <div class="col-md-1 hour">
+          12pm
+        </div>
+        <textarea class = "col-md-10 description"></textarea>
+        <button class="btn saveBtn col=md-1">
+          <i class = "fas fa-save">
+          </i>
+        </button>
+      </div>
+      
+      <!-- afternoon -->
+      <div id="hour1300" class="row time-block">
+        <div class="col-md-1 hour">
+          1pm
+        </div>
+        <textarea class = "col-md-10 description"></textarea>
+        <button class="btn saveBtn col=md-1">
+          <i class = "fas fa-save">
+          </i>
+        </button>
+      </div>
+
+      <!-- 2pm -->
+      <div id="hour1400" class="row time-block">
+        <div class="col-md-1 hour">
+          2pm
+        </div>
+        <textarea class = "col-md-10 description"></textarea>
+        <button class="btn saveBtn col=md-1">
+          <i class = "fas fa-save">
+          </i>
+        </button>
+      </div>
+
+      <!-- 3pm -->
+      <div id="hour1500" class="row time-block">
+        <div class="col-md-1 hour">
+          3pm
+        </div>
+        <textarea class = "col-md-10 description"></textarea>
+        <button class="btn saveBtn col=md-1">
+          <i class = "fas fa-save">
+          </i>
+        </button>
+      </div>
+
+      <!-- 4pm -->
+      <div id="hour1600" class="row time-block">
+        <div class="col-md-1 hour">
+          4pm
+        </div>
+        <textarea class = "col-md-10 description"></textarea>
+        <button class="btn saveBtn col=md-1">
+          <i class = "fas fa-save">
+          </i>
+        </button>
+      </div>
+
+      <!-- 5pm -->
+      <div id="hour1700" class="row time-block">
+        <div class="col-md-1 hour">
+          5pm
+        </div>
+        <textarea class = "col-md-10 description"></textarea>
+        <button class="btn saveBtn col=md-1">
+          <i class = "fas fa-save"
+          ></i>
+        </button>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+  <script src="script.js"></script>
+  </body>
+  
+</html>
